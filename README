@@ -1,0 +1,5 @@
+2011 Steve Hurwitz, steve@stevehurwitz.com
+
+This is a blank HTML 5 theme for Drupal 7. I've included base files from api.drupal.org that I almost always end up modifying. This theme also includes it's own jquery file. Drupal's is usually outdated and I've never really been a fan of jquery_update for whatever reason.
+
+This probably isn't the best place to begin if you are new to Drupal theming. With a solid understanding of PHP and a willingness to crawl through the the sometimes hard to decipher api.drupal.org you should be fine.
