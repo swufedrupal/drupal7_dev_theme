@@ -84,8 +84,10 @@
 
 <div id="page">
 	<header>
-		<div id="logo-block">	
-			<a href="<?php echo $front_page; ?>" title="<?php echo t('Home'); ?>" rel="home" id="logo">Spy</a>
+		<div id="logo-block">
+			<a href="<?php echo $front_page; ?>" title="<?php echo t('Home'); ?>" rel="home" id="logo">
+				<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+			</a>
 		</div>
 		<?php if($page['header']) echo render($page['header']); ?>
 	</header>
