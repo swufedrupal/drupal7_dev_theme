@@ -1,0 +1,28 @@
+name = Blank Drupal 7 HTML5 Theme
+description = Blank starter theme
+version = DEV
+core = 7.x
+engine = phptemplate
+
+settings[shortcut_module_link] = 1
+
+scripts[] = js/jquery-1.5.2.min.js
+scripts[] = js/app.js
+
+regions[header] = Page Header
+regions[sidebar_left] = Left Sidebar
+regions[help] = Help
+regions[highlighted] = Highlighted
+regions[featured] = Featured
+regions[content_top] = Content Top
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[right_sidebar] = Right Sidebar
+regions[footer] = Footer
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/screen.css
+
+stylesheets-conditional[lte IE 8][all][] = css/ie.css
+stylesheets-conditional[lte IE 7][all][] = css/ie7.css
+
